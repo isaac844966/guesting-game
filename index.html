@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guesting game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <div class="conatiner">
+      <header>
+        <button class="again">Start playing</button>
+        <h3>Guest number (1 - 20)</h3>
+      </header>
+      <h2>Guess the number</h2>
+      <div class="number">?</div>
+      <main>
+        <section class="left">
+          <p class="message">Start guessing the number...</p>
+          <p class="label-score">🏆 Score: <span class="score">5</span></p>
+          <p class="label-highscore">
+            🙋‍♂️ Highscore: <span class="highscore">0</span>
+          </p>
+        </section>
+        <section class="right">
+          <input type="number" class="guess" /><br />
+          <button class="btn check">Check!</button>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
